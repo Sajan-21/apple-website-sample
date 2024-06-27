@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;;
+}
+body{
+    background-color: white;
+}
+.head-div{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-item-icons{
+    width: 1vw;
+}
+.head-items{
+    padding: 1%;
+    font-size: 12px;
+}
+.head-items-link{
+    text-decoration: none;
+    color: black;
+}
+.head-items-container{
+    padding: 0% 1% 0% 1%;
+    /* display: none; */
+}
+.dropdown{
+    display: none;
+}
+.two-lines{
+    display: none;
+}
+@media only screen and (max-width: 702px){
+
+    .head-item-writtings{
+        display: none;
+    }
+    .two-lines{
+        display: block;
+    }
+}
+.container{
+    margin-bottom: 1%;
+}
+.container{
+    position: relative;
+}
+.container-image{
+    width: 100%;
+}
+.container-texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+.button-div{
+    margin-top: 1%;
+}
+.shop-for-college-btn-div{
+    top: 90%;
+}
+.shop-btn{
+    font-size: 20px;
+    color: #06c;
+    background: none;
+    border: 1px solid #06c;
+    border-radius: 25px;
+    padding: 10%;
+    min-width: 6vw;
+}
+.college-student-texts{
+    min-width: 30%;
+    top: 70%;
+    color: white;
+    display: inline;
+    text-align: center;
+}
+.container-text-head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.container-text{
+    font-size: 30px;
+}
+.lm-btn{
+    min-width: 10vw;
+    font-size: 20px;
+    background-color: #0071e3;
+    color: white;
+    border-style: none;
+    border-radius: 35px;
+    padding: 3% 7%;
+}
+.mac-book-air-texts{
+    top: 20%;
+}
+.mac-book-air-btn{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.mac-book-air-lm-btn{
+    font-size: 20px;
+    background-color: #0071e3;
+    color: white;
+    border-style: none;
+    border-radius: 35px;
+    padding: 4%;
+}
+.buy-btn{
+    font-size: 20px;
+    background: none;
+    color: #06c;
+    border: 1px solid #06c;
+    border-radius: 35px;
+    min-width: 5vw;
+}
+.half-containers{
+    padding: 0% 2% 3% 1%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    gap: 1%;
+}
+.container-half{
+    position: relative;
+}
+.half-container-texts{
+    top: 20%;
+    line-height: 40px;
+}
+.apple-icon-half-containers{
+    width: 20%;
+    margin-right: 5%;
+}
+.ipad-pro-texts, .iphone-texts{
+    color: white;
+}
+.half-container-text-head{
+    font-size: 40px;
+    font-weight: 600;
+}
+.half-container-text{
+    font-size: 20px;
+}
+
+.half-button-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.half-lm-btn{
+    font-size: 15px;
+    background-color: #0071e3;
+    color: white;
+    border-style: none;
+    border-radius: 35px;
+    padding: 5% 7% 5% 7%;
+}
+.iPad-air-lm-btn{
+    background-color: black;
+}
+.half-buy-btn{
+    background: none;
+    color: #06c;
+    font-size: 15px;
+    padding: 5% 7% 5% 7%;
+    border: 1px solid #06c;
+    border-radius: 35px;
+
+}
+.half-apply-btn{
+    background: none;
+    color: #06c;
+    font-size: 15px;
+    border: 1px solid #06c;
+    border-radius: 35px;
+    padding: 0% 7%;
+}
+.buy-btn-iPad-air{
+    color: black;
+    border: 1px solid black;
+}
+.half-estimate-btn{
+    font-size: 15px;
+    background-color: #0071e3;
+    color: white;
+    border-style: none;
+    border-radius: 35px;
+    padding: 5% 7%;
+}
+@media only screen and (max-width: 735px){
+    .half-containers{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+.big-slideshow{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+    margin-bottom: 1%;
+    overflow: auto;
+}
+.big-slideshow-images{
+    width: 80vw;
+}
+.small-slideshow{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1%;
+    margin-bottom: 2%;
+    overflow: auto;
+}
+.small-slideshow-images{
+    width: 30vw;
+}
+.apple-music-rnb-img{
+    height: 100%;
+}
+
+.peragraph-container{
+    width: 70%;
+    margin: auto;
+    font-size: 12px;
+    color: grey;
+    line-height: 20px;
+}
+/* .footer-pera{
+    margin-bottom: 2%;
+} */
+
+.footer-hr{
+    margin: 2% 0%;
+}
+.footer-list-head{
+    color: black;
+}
+li{
+    list-style-type: none;
+}
+.footer-grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 5%;
+    margin-bottom: 5%;
+}
+.footer-hr-2{
+    margin: 2% 0%;
+}
+.last-sentence{
+    margin-bottom: 1%;
+}
